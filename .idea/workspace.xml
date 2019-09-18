@@ -12,8 +12,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QxAN6pnt0uspGF7vt2Pb6K2wxq" />
   <component name="PropertiesComponent">
@@ -46,10 +50,22 @@
       <workItem from="1568701831474" duration="9567000" />
       <workItem from="1568720332399" duration="4087000" />
       <workItem from="1568787497179" duration="87000" />
+      <workItem from="1568788096446" duration="1450000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

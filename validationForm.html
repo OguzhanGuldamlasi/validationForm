@@ -1,64 +1,9 @@
 <!DOCTYPE html>
 <html>
-<style>
-    input[type=text], select {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
-
-    input[type=submit] {
-        width: 100%;
-        background-color: #4CAF50;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-
-    input[type=submit]:hover {
-        background-color: #45a049;
-    }
-
-    div {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-    }
-    #errorImg1{
-        display: none;
-    }
-    #errorImg2{
-        display: none;
-    }
-    #errorImg3{
-        display: none;
-    }
-    #errorImg4{
-        display: none;
-    }
-    #span1{
-        display: none;
-    }
-    #span2{
-        display:none;
-    }
-    #span3{
-        display: none;
-    }
-    #span4{
-        display: none;
-    }
-    #customBotton{
-
-    }
-</style>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="validationForm.css">
+</head>
 <body>
 <div>
     <form id="myForm" onsubmit=" return submitCheck() " method="post" >
@@ -100,7 +45,6 @@
     let constButton=document.getElementById("input");
     let fakeButton=document.getElementById("customBotton");
     let buttonText=document.getElementById("span5");
-
     fakeButton.addEventListener("click",function () {
         constButton.click();
     });
@@ -109,8 +53,8 @@
             buttonText.innerText=constButton.value;
         else
             buttonText.innerText=constButton.value;
-    })
-    
+    });
+
     function submitCheck() {
         let fNameInput=document.getElementById("fname");
         let fName=fNameInput.value;
@@ -172,6 +116,7 @@
             return false;
         }
     }
+
 </script>
 </body>
 </html>
