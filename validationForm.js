@@ -11,11 +11,9 @@ function init(){
         if(constButton.value)
             buttonText.innerText=constButton.value;
         else
-            buttonText.innerText=constButton.value;
+            buttonText.innerText="File not choosen yet.";
     });
 }
-
-
 
 function errorMsg(name,span,errorImg) {
     if(name==null||name==""){
